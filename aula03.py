@@ -1,7 +1,7 @@
 #Entendendo funções no python
 
 def imprimirMensagens(linguagem, curso):
-    msn = (f"essa é minha primeira função usando {linguagem} no curso de {curso}")
+    msn = (f"\nessa é minha primeira função usando {linguagem} no curso de {curso}")
     return msn
 
 qualLinguagem = input("Digite a linguagem que vc esta estudando: ")
