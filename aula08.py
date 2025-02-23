@@ -15,8 +15,3 @@ media = soma / contador_pares
 
 print(f"foram digitados {contador_pares} números pares")
 print(f"a soma dos números pares é {soma}, a média é {media}")
-
-"""✔ Removemos contador_impares, pois não é necessário.
-✔ Corrigimos a média, dividindo pela quantidade real de números pares (contador_pares).
-✔ Evitamos erro de divisão por zero, verificando antes de calcular a média.
-✔ Melhoramos a saída, formatando a média para duas casas decimais ({media:.2f})."""
